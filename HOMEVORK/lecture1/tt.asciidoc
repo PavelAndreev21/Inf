@@ -350,7 +350,40 @@ else:
 +*In[ ]:*+
 [source, ipython3]
 ----
+n = int(input())
+1    elif n <=0 :
+    print ('error')
+while n>1:
+    print ( n ,'bottles of beer on the wall,', n ,' bottles of beer.')
+    n = n-1
+    print ('Take one down and pass it around,', n, 'bottles of beer on the wall.')
+n=0
+while n == 0:
+    print ( n ,'bottles of beer on the wall,', n ,' bottles of beer.')
+    n = n-1
+    print ('Take one down and pass it around,bottle of beer on the wall.')goto  
 
+----
+
+n = int(input()) elif n <=0 : print (`error') while n>1: print ( n
+,`bottles of beer on the wall,', n ,’ bottles of beer.’) n = n-1 print
+(`Take one down and pass it around,', n, `bottles of beer on the wall.')
+n=0 while n == 0: print ( n ,`bottles of beer on the wall,', n ,’
+bottles of beer.’) n = n-1 print (`Take one down and pass it
+around,bottle of beer on the wall.')
+
+
++*In[4]:*+
+[source, ipython3]
+----
+`
+----
+
+
++*Out[4]:*+
+----
+0
+error
 ----
 
 
@@ -364,6 +397,5 @@ else:
 +*In[ ]:*+
 [source, ipython3]
 ----
-10
 
 ----
